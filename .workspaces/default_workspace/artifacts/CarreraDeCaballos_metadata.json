@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "numeroCaballosPersona",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "dineroApostar",
+						"type": "uint256"
+					}
+				],
+				"name": "Apostar",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listaCaballos",
+				"outputs": [
+					{
+						"name": "id",
+						"type": "address"
+					},
+					{
+						"name": "nombreCaballo",
+						"type": "string"
+					},
+					{
+						"name": "nombreJinete",
+						"type": "string"
+					},
+					{
+						"name": "edadCaballo",
+						"type": "uint256"
+					},
+					{
+						"name": "edadJinete",
+						"type": "uint256"
+					},
+					{
+						"name": "carrerasGanadas",
+						"type": "uint256"
+					},
+					{
+						"name": "carrerasTotales",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_nombreCaballo",
+						"type": "string"
+					},
+					{
+						"name": "_nombreJinete",
+						"type": "string"
+					},
+					{
+						"name": "_edadCaballo",
+						"type": "uint256"
+					},
+					{
+						"name": "_edadJinete",
+						"type": "uint256"
+					}
+				],
+				"name": "anadirCaballo",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "ms",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "res",
+						"type": "uint256"
+					}
+				],
+				"name": "MostrarResultado",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CarreraDeCaballos.sol": "CarreraDeCaballos"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CarreraDeCaballos.sol": {
+			"keccak256": "0xd1ed00f366a95917e33bece4c15090330692f2e7dc72f0bc385bdaaa0d1e5efb",
+			"urls": [
+				"bzzr://79bd474489818c6079b393604886f173f40a95c076ae041ef5d0fc282f03bd7e"
+			]
+		}
+	},
+	"version": 1
+}
